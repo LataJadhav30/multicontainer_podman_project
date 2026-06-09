@@ -1,9 +1,9 @@
-#MultiContainer Web Application using podman on RHEL9
+# MultiContainer Web Application using podman on RHEL9
 
-###Overview 
+### Overview 
 This project demonstrates a multicontainer deployment using podman on RHEL9.
 
-##Technologies Used
+## Technologies Used
 -RHEL9
 -Podman
 -MariaDB
@@ -28,9 +28,9 @@ MariaDB Container
 -Persistent Storage
 -Firewall Configuration
 
-####Commands Used
+#### Commands Used
 
-##Build image
+## Build image
 
 podman build -t myweb:v1
 
@@ -46,7 +46,7 @@ podman run -d --pod webpod --name mariadb \
 docker.io/library/mariadb:latest
 
 
-###Author
+### Author
 
 Lata N Jadhav
 
